@@ -6,6 +6,46 @@
     
     <!--Put your CSS inside this style tag-->
     <style>
+      position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: #333;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+#ac-globalnav, #ac-globalnav select, #ac-globalnav button, #ac-gn-segmentbar, #ac-gn-segmentbar select, #ac-gn-segmentbar button {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#ac-globalnav, #ac-globalnav input, #ac-globalnav textarea, #ac-globalnav select, #ac-globalnav button, #ac-gn-segmentbar, #ac-gn-segmentbar input, #ac-gn-segmentbar textarea, #ac-gn-segmentbar select, #ac-gn-segmentbar button {
+    font-synthesis: none;
+    -webkit-font-feature-settings: 'kern';
+    font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left;
+}
+#ac-globalnav, #ac-globalnav:before, #ac-globalnav:after, #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar, #ac-gn-segmentbar:before, #ac-gn-segmentbar:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
     </style>
 
   </head>
